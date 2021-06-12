@@ -8,7 +8,7 @@ def display_board(board)
   i = 0
   while i < 3
     display_row(board[i])
-    puts '--------'
+    puts "-----------"
     i++
   end
 end
