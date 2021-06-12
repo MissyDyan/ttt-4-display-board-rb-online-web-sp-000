@@ -57,17 +57,17 @@ display_board(board7)
 puts " "
 puts " "
 
-puts "This is a Tic Tac Toe board with O winning in a top right to bottom left diagonal:"
+puts "This is a Tic Tac Toe board with 'O' winning in a top right to bottom left diagonal:"
 display_board(board8)
 puts " "
 puts " "
 
-puts "This is a Tic Tac Toe board with arbitrary arrangements of 'Xs' and 'Os':"
+puts "This is a Tic Tac Toe board with arbitrary arrangements of 'X's and 'O's:"
 display_board(board9)
 puts " "
 puts " "
 
-puts "This is another Tic Tac Toe board with arbitrary arrangements of 'Xs' and'Os':"
+puts "This is another Tic Tac Toe board with arbitrary arrangements of 'X's and 'O's:"
 display_board(board10)
 puts " "
 puts " "
