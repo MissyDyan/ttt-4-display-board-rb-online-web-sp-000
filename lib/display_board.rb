@@ -11,8 +11,8 @@ board7 = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
 board8 = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
 board9 = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
 board10 = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
-board11 = ["X", "X", "X", "X", "X", "X", "X", "X", "X"] 
-board12 = ["O", "O", "O", "O", "O", "O", "O", "O", "O"] 
+board11 = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
+board12 = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
 
 def display_board(board)
     puts " #{board[0]} | #{board[1]} | #{board[2]} "
