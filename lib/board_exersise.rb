@@ -15,9 +15,9 @@ def display_board(board)
   end
 end
 
-def display_row(row)
-  puts " #{row[0]} | #{row[1]} | #{row[2]} "
-end
+# def display_row(row)
+#   puts " #{row[0]} | #{row[1]} | #{row[2]} "
+# end
 
 display_board(board1)
 
