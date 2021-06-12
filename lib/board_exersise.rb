@@ -1,4 +1,4 @@
-board13 = [
+board1 = [
   ["X", "O", "O"],
   ["O", "X", "O"],
   ["X", "O", "X"],
@@ -16,6 +16,8 @@ end
 def display_row(row)
   puts " #{row[0]} | #{row[1]} | #{row[2]} "
 end
+
+display_board(board1)
 
 # puts board13[1][1] # X
 # puts board13[1][0] # O
