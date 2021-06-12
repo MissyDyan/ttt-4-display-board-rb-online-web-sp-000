@@ -7,14 +7,14 @@ board13 = [
 def display_board(board)
   i = 0
   # while i < 3
-  #   display_row(board[i])
-  #   puts "-----------"
-  #   i++
+    display_row(board[i])
+    puts "-----------"
+    i++
   # end
 end
 
 def display_row(row)
-  puts " #{row[0]} | #{row[1]} | #{row[2]} "
+  # puts " #{row[0]} | #{row[1]} | #{row[2]} "
 end
 
 puts board13[1][1] # X
