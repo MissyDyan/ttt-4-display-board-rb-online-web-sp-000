@@ -8,7 +8,7 @@ def display_board(board)
   i = 0
   while i < 3
     # display_row(board[i])
-    row = board1[i]
+    row = board[i]
     puts " #{row[0]} | #{row[1]} | #{row[2]} "
     puts "-----------"
     i += 1
