@@ -18,7 +18,10 @@
       # expect(rows[4]).to eq("   |   |   ")
 #     end
 
-b = ["X"," "," "," ","X"," "," "," ","O"]
+board1 = [" "," "," "," "," "," "," "," "," "]
+board2 = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+board3 = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+
 
 def display_board(board)
     # puts "board = [" "," "," "," "," "," "," "," "," "]"
@@ -29,7 +32,9 @@ def display_board(board)
     puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-display_board(b)
+display_board(board1)
+display_board(board2)
+display_board(board3)
 
 # def display_board
 #     board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
