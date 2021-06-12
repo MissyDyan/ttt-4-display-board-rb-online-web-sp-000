@@ -81,4 +81,3 @@ puts "This is a Tic Tac Toe board with an entire board full of 'O's:"
 display_board(board12)
 puts " "
 puts " "
-
