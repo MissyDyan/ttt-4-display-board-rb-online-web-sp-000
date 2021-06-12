@@ -72,12 +72,12 @@ display_board(board10)
 puts " "
 puts " "
 
-puts "This is a Tic Tac Toe board with an entire board full of 'Xs':"
+puts "This is a Tic Tac Toe board with an entire board full of 'X's:"
 display_board(board11)
 puts " "
 puts " "
 
-puts "This is a Tic Tac Toe board with an entire board full of 'Os':"
+puts "This is a Tic Tac Toe board with an entire board full of 'O's:"
 display_board(board12)
 puts " "
 puts " "
