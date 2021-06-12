@@ -14,6 +14,12 @@ board10 = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 board11 = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
 board12 = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
 
+board13 = [
+  [" ", " ", " "],
+  [" ", " ", " "],
+  [" ", " ", " "],
+]
+
 def display_board(board)
     puts " #{board[0]} | #{board[1]} | #{board[2]} "
     puts "-----------"
