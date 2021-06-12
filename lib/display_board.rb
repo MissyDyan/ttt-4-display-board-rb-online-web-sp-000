@@ -24,8 +24,8 @@ end
 
 puts "This is a Tic Tac Toe board:"
 display_board(board1)
-puts " "
-puts " "
+puts
+puts
 
 puts "This is a Tic Tac Toe board with an 'X' in the center position:"
 display_board(board2)
