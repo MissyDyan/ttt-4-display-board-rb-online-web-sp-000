@@ -14,12 +14,6 @@ board10 = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 board11 = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
 board12 = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
 
-board13 = [
-  [" ", " ", " "],
-  [" ", " ", " "],
-  [" ", " ", " "],
-]
-
 def display_board(board)
     puts " #{board[0]} | #{board[1]} | #{board[2]} "
     puts "-----------"
@@ -87,3 +81,13 @@ puts "This is a Tic Tac Toe board with an entire board full of 'O's:"
 display_board(board12)
 puts " "
 puts " "
+
+puts "---------"
+
+board13 = [
+  ["X", "O", "O"],
+  ["O", "X", "O"],
+  ["X", "O", "X"],
+]
+
+puts board13[1][1]
