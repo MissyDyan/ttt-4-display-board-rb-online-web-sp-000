@@ -14,7 +14,7 @@ def display_board(board)
 end
 
 def display_row(row)
-  
+
 end
 
 puts board13[1][1] # X
