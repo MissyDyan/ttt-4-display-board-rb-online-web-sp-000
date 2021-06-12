@@ -6,11 +6,11 @@ board13 = [
 
 def display_board(board)
   i = 0
-  # while i < 3
+  while i < 3
     display_row(board[i])
     puts "-----------"
     i += 1
-  # end
+  end
 end
 
 def display_row(row)
