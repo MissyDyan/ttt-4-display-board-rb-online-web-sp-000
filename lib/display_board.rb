@@ -1,8 +1,9 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
-puts "This is a Tic Tac Board"
+puts "This is a Tic Tac Toe board:"
 board1 = [" "," "," "," "," "," "," "," "," "]
+puts "This is a Tic Tac Toe board with an X in the center position"
 board2 = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 board3 = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
 board4 = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
