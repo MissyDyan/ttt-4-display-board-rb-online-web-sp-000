@@ -9,7 +9,7 @@ def display_board(board)
   # while i < 3
     # display_row(board[i])
     # puts "-----------"
-    i++
+    i += 1
   # end
 end
 
